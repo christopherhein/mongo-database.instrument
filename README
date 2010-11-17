@@ -15,8 +15,8 @@
 
 ------------------------------------------------------
 What:
-This is an instrument file for adding Your Twitter Feed to any section of your Orchestra Apps.
-This adds a few helping methods that can be called from anywhere in your application to add a Feed from your twitter account.
+This is an instrument file for using MongoDB as your primary datastore of your Orchestra Apps.
+This adds a full REST mapper for modeling your mongo objects in Orchestra.
 
 Installation:
 First you must have already installed the sys_orchestra (https://github.com/christopherhein/system-orchestra-mvc)
