@@ -1,1 +1,33 @@
-This is an Instrument File for using MongoDB in for Orchestra Applications
+/**
+* Orchestra Mongo-Database 
+*
+* Use MongoDB as your primary datastore to your Orchestra Apps
+*
+* Licensed under the MIT license.
+*
+* @category   Orchestra
+* @copyright  Copyright (c) 2010, Christopher Hein
+* @license    http://orchestramvc.chrishe.in/license
+* @version    Release: 0.0.1:beta
+* @link       http://orchestramvc.chrishe.in/
+*
+*/
+
+------------------------------------------------------
+What:
+This is an instrument file for adding Your Twitter Feed to any section of your Orchestra Apps.
+This adds a few helping methods that can be called from anywhere in your application to add a Feed from your twitter account.
+
+Installation:
+First you must have already installed the sys_orchestra (https://github.com/christopherhein/system-orchestra-mvc)
+If that is installed use:
+
+  $ instrument pull mongo-database
+  
+This with build the instrument locally in /usr/local/orchestra/instruments/ once that is complete you can use:
+
+  $ instrument install mongo-database
+  
+from the root directory of any Orchestra App and it will install all the necessary files, plus walk you through any additional steps.
+
+Enjoy!
