@@ -2,3 +2,28 @@
 Mongo-Database Instrument
 
 this allows to use Mongo as your primary datastore.
+
+by adding mongo.php into ./lib/drivers
+
+to use you need to set your config/database.php with your settings example:
+
+$db['development'] = array(
+	'type' 			=> 'mongo',
+	'server'		=> '127.0.0.1',
+	'port'			=> '27017',
+	'name'		=> 'orchestra_development'
+);
+
+$db['test'] = array(
+	'type' 			=> 'mongo',
+	'server'		=> '127.0.0.1',
+	'port'			=> '27017',
+	'name'		=> 'orchestra_test'
+);
+
+$db['production'] = array(
+	'type' 			=> 'mongo',
+	'server'		=> '127.0.0.1',
+	'port'			=> '27017',
+	'name'		=> 'orchestra_production'
+);
