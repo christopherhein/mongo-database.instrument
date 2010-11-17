@@ -1,0 +1,38 @@
+<?php
+/**
+* Orchestra Settings
+*
+* Used for filing on the OrchestraMVC website.
+*
+* Licensed under the MIT license.
+*
+* @category   Orchestra
+* @copyright  Copyright (c) 2010, Christopher Hein
+* @license    http://orchestramvc.chrishe.in/license
+* @version    Release: 0.0.1:beta
+* @link       http://orchestramvc.chrishe.in/
+*
+*/
+
+$instrument = array(
+	'title' 				=> 'mongo-database',
+	'teaser'				=> 'Use Mongo as a primary Datastore',
+	'description'		=> 'This instrument adds the Mongo-Database driver to you application so that any connection you make to the database is through mongo.'
+	'category'			=> 'database',
+	'copyright'			=> 'Christopher Hein',
+	'license'				=> 'MIT',
+	'version'				=> '0.0.1',
+	'link'					=> 'http://orchestramvc.chrishe.in/instruments/Mongo-Database-database',
+	'author'				=> 'Christopher Hein',
+	'author-link'		=> 'http://chrishe.in',
+	'author-email'	=> 'me@chrishe.in'
+	'files'					=> array(
+												'README',
+												'install',
+												'mongo-database.php',
+												'settings.instrument',
+												'./docs/mongo-database.html',
+												'./files/mongo-database.php',
+												'./images/',
+											)
+);
