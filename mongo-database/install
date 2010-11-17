@@ -19,7 +19,7 @@ $path = getcwd();
 $name = "mongo-database";
 $drivers = "/lib/drivers/";
 $files = array(
-	'mongo-database.php'
+	'mongo.php'
 );
 
 	// Variables

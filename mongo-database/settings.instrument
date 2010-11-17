@@ -32,7 +32,7 @@ $instrument = array(
 												'mongo-database.php',
 												'settings.instrument',
 												'./docs/mongo-database.html',
-												'./files/mongo-database.php',
+												'./files/mongo.php',
 												'./images/',
 											)
 );
